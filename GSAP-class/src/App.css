@@ -1,5 +1,21 @@
 .h1-box{
   background-color: grey;
+  padding: 100px;
+  
+  button{
+    transition: 300ms;
+    color: blue;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+
+    &:hover{
+      background-color: blue;
+      color: white;
+    }
+  }
 }
 .h2-box{
   background-color: white;
