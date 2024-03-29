@@ -56,8 +56,8 @@ const Home = () => {
         <button onClick={()=>{handleNavigate('/about')}}>
           word slider
         </button>
-        <button>
-          test2
+        <button onClick={()=>{handleNavigate('/cube')}}>
+          cube
         </button>
         <button>
           test3

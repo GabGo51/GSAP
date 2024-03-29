@@ -37,7 +37,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 300px;
+
+  button{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+
+  }
+  
 }
 
 .overlay{

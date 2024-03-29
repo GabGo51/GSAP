@@ -1,0 +1,21 @@
+.cube{
+
+  margin: 200px 0px;
+}
+
+.purple{
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+}
+
+.orange{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(226, 131, 43);
+}
+.red{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(226, 11, 18);
+}

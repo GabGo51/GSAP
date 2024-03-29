@@ -3,6 +3,7 @@ import { useLayoutEffect, useRef } from "react";
 import "../App.css";
 import { word } from "./data";
 import gsap from "gsap";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
   const comp = useRef(null);
@@ -13,11 +14,17 @@ const About = () => {
       timeline.from('#words', {
         yPercent:'-80',
         duration:5, 
+        ease:'expo.inOut'
         
       })
     }, comp);
     return () => ctx.revert();
   }, []);
+
+  const navigate = useNavigate()
+  const handeleNav = ((page)=>{
+    navigate(page)
+  }) 
 
   return (
     <div className="about">
@@ -30,6 +37,7 @@ const About = () => {
         </div>
         
       </div>
+      <button onClick={()=>{handeleNav('/')}}> back</button>
     </div>
   );
 };
