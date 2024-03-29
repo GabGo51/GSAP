@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useLayoutEffect, useRef } from "react";
 import { useNavigate } from 'react-router-dom';
 import gsap from "gsap";
-import "./App.css";
+import "../App.css";
 
 const Home = () => {
   const comp = useRef(null);
